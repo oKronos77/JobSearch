@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
+
+* {
+  margin:0px;
+  padding:0px;
+
+  text-decoration: none;
+  list-style: none;
+  color:black;
+}
+
+body {
+  background: hsl(180, 52%, 96%);
+}
+
+//display: flex;
+
+//justify-content: center;
+//height: 800px;
+.choose-method {
+  a {
+    padding:7px 15px;
+    border-radius:3px;
+    color:white;
+    font-family: 'Inter', sans-serif;
+
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    text-transform: capitalize;
+    margin:0 5px;
+    transition: .2s all;
+
+    &:hover {
+      background:#6495ed;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+  }
+}
+header {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2ZGNLUh4UoEYI-nC9RjtNtSx2tED1tdCTnw&usqp=CAU");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+
+  position: relative;
+  section {
+    position: absolute;
+    padding:20px;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+top:170px;
+
+
+
+background: white;
+border-radius:6px;
+
+
+
+    input,button {
+      background: none;
+      border:none;
+      outline: none;
+      color:black;
+
+    }
+
+    input {
+      width: 890px;
+font-family: 'Open Sans', sans-serif;
+      &::placeholder {
+        color:black;
+      }
+    }
+
+    button {
+      cursor: pointer;
+    }
+
+  }
+}
+
+.search-decoration {
+  display: flex;
+
+justify-content: center;
+
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  img {
+    margin-right:20px;
+  }
+}
+.page-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:20px;
+
+  .pages {
+    a {
+      color:white;
+      font-family: 'Inter', sans-serif;
+
+      padding:10px 15px;
+      text-transform: capitalize;
+      &:hover {
+        border-bottom:2px solid grey;
+      }
+
+    }
+  }
+}
+
+.company-icon {
+  img {
+    object-fit: cover;
+    border-radius:100%;
+    width: 100px;
+    height:100px;
+  }
+}
+
+.jobs-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top:100px;
+  .flex-jobs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.tags {
+  margin-top:10px;
+  ul {
+    display: flex;
+    li {
+
+    margin-right:30px;
+
+      color:grey;
+      text-transform: capitalize;
+      font-family: "Montserrat";
+    }
+  }
+}
+
+.company-infos {
+  margin-left:50px;
+  h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  text-transform: capitalize;
+  margin-top:10px;
+  }
+
+  p {
+      text-transform: capitalize;
+    font-family: 'League Spartan', sans-serif;
+    color: hsl(180, 29%, 50%);
+  }
+}
+
+.jobs-card {
+  margin-bottom:20px;
+
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding:20px 30px;
+  border-radius:7px;
+  width: 890px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+}
+
+.categories {
+
+  ul {
+  
+    display: flex;
+    flex-wrap: wrap;
+    li {
+        text-transform: capitalize;
+      margin:9px 9px;
+      font-family: 'League Spartan', sans-serif;
+      background: rgba(20, 205, 200,0.1);;
+      padding:5px 15px;
+      border-radius:4px;
+    }
+  }
+}
+
+.new {
+  border-left:5px solid hsl(180, 14%, 20%);
+}
